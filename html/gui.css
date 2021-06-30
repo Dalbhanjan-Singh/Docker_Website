@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    background: #030303;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+div#d2 {
+    color:rgb(122,35,244);
+    margin-top: 50px; 
+} 
+
+a#boring{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 19px 0;
+    color: #9900CC;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}  
+@media screen and (max-width:2000px) {
+            .column1 {
+                width: 100%;
+            }
+            .column2{
+                width: 100%
+            }
+            }
+            /* Create three equal columns that floats next to each other */
+            .column1 {
+            float: left;
+            width: 45%;
+            margin-top: 30px;
+            border-style: dashed;
+            border-color: darkgray;
+            border-width: 3px;
+            border-left: black;
+            border-top: black;
+            border-bottom: black;
+	    margin-right:0%;
+            }
+            .column2{
+                float:left;
+                width:55%;
+                /* padding-top: 100%;
+                margin-top: 20%; */
+            }
+          
+            /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+    .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: 	#990099;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 4px;
+    
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  input {
+    border: 2px solid rgb(0, 153, 255);
+    background-color:rgb(213, 218, 228);
+    border-radius: 4px;
+    /*padding: auto;*/
+    height: 25px;
+    padding: 3px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(156 , 129, 129);
+    opacity: 1; /* Firefox */
+    font-family: 'Raleway', sans-serif;
+  }
+    .navbar {
+    background-color:grey;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 grey;
+    }
+    .navbar *{
+        display:inline;
+    }
+    .navbar a {
+    float: left;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    .dropdown {
+    float: left;
+    overflow: hidden;
+    }
+    .dropdown .dropbtn {
+    font-size: 25px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    }
+    .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(1, 6, 8);
+    }
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+    .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+    .dropdown-content a:hover {
+    background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+    ul{
+        margin-left: 150px;
+    }
+  
